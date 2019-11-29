@@ -1876,6 +1876,7 @@ label monika_affection_nickname:
             "annoying",
             "anus",
             "arrogant",
+            "asshole",
             "atrocious",
             "awful",
             "bitch",
@@ -1898,8 +1899,10 @@ label monika_affection_nickname:
             "demon",
             "dick",
             "dirt",
+            "dirtbag",
             "disgusting",
             "douche",
+            "douchebag",
             "dumb",
             "egotistical",
             "evil",
@@ -1916,6 +1919,7 @@ label monika_affection_nickname:
             "hate",
             "heartless",
             "hideous",
+            "hitler",
             "^ho$",
             "^hoe$",
             "hore",
@@ -1950,15 +1954,18 @@ label monika_affection_nickname:
             "panti",
             "panty",
             "pedo",
+            "pedophile",
             "penis",
             "plaything",
             "poison",
             "porn",
             "pretentious",
             "psycho",
+            "psychopath",
             "puppet",
             "pussy",
             "rape",
+            "rapist",
             "repulsive",
             "retard",
             "rump",
@@ -2039,6 +2046,8 @@ label monika_affection_nickname:
             "okaasan",
             "kaasan",
             "kasan",
+            "mum",
+            "mummy",
         ]
 
         # for later code
@@ -2185,7 +2194,7 @@ label monika_affection_nickname_bad_lock:
 # Event to warn player that Monika feels like she's not receiving the affection she deserves.
 label mas_affection_upsetwarn:
     m 1dsc "Hey, [player]..."
-    m 1lksdlc "Recently, I've been feeling like my love and affection that I give is being...ignored."
+    m 1lksdlc "Recently, I've been feeling like all the love and affection that I give is being... ignored."
     m 1dsc "I feel like you're giving me less and less of your love..."
     m 1dsd "I thought I'd let you know how I feel. After all, communication is the key to a strong relationship, right?"
     m 1eka "I hope there's nothing wrong between us, [player]."
