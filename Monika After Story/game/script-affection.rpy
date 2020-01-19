@@ -2496,7 +2496,7 @@ init 20 python:
         title="Goodbye, [player]",
         text="""\
  Do you remember the promise you made?
- The one you said you would make everything right. That we could start over.
+ The one where you said you would make everything right. That we could start over.
 
  The one you broke.
 
