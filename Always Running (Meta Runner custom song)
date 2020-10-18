@@ -1,0 +1,93 @@
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="mas_song_always_running",
+            category=[store.mas_songs.TYPE_SHORT],
+            prompt="Always Running",
+            random=True,
+            aff_range=(mas_aff.AFFECTIONATE,None)
+        ),
+        code="SNG"
+    )
+
+label mas_song_always_running:
+
+m 1hua "This heart gives the smallest glow"
+m "I think that I can see it show"
+m 3eka "Your eyes have a spark, you know"
+m 3hua "Open them and see me go"
+m 1dua "This world never knew my game"
+m 3rkc "Hope I have a chance to stay"
+m 2dsc "These arms, are worn, and never fading"
+m "The cold air is never waiting"
+m 3esa "Had me going, my friend"
+m 3rsc "I'm so blind, I can't stand"
+m 3rk "Left alone with your hand"
+m 1eua "I think that I can see your eyes"
+m 1hua "And the past can show you"
+m "All the life we've been through"
+m 1rkc "Lost and gone and frozen, but I'm just..."
+m 1eua "I'm always running"
+
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="mas_song_always_running_long",
+            category=[store.mas_songs.TYPE_LONG],
+            prompt="Always Running",
+            random=True,
+            aff_range=(mas_aff.AFFECTIONATE,None)
+        ),
+        code="SNG"
+    )
+
+label mas_song_always_running_long:
+
+m 1hua "This heart gives the smallest glow"
+m "I think that I can see it show"
+m 3eka "Your eyes have a spark, you know"
+m 3hua "Open them and see me go"
+m 1dua "This world never knew my game"
+m 3rkc "Hope I have a chance to stay"
+m 2dsc "These arms, are worn, and never fading"
+m "The cold air is never waiting"
+m 3esa "Had me going, my friend"
+m 3rsc "I'm so blind, I can't stand"
+m 3rk "Left alone with your hand"
+m 1eua "I think that I can see your eyes"
+m 1hua "And the past can show you"
+m "All the life we've been through"
+m 1rkc "Lost and gone and frozen, but I'm just..."
+m 1eua "I'm always running"
+m 1sua "My eyes have a sparkle too"
+m 2ekc "Hope that I can see this through"
+m 3euc "My thoughts, belong and are ever changing"
+m 1ekc "Remind me of what I'm losing"
+m 1dsc "These feelings in my head,"
+m "I push them off instead,"
+m 1esc "Of running one way"
+m 1ekc "Just to come on back again"
+m "Within this circle"
+m 5dtc "Beyond my clouded mind"
+m 1duc "A new forgotten life"
+m 1dtc "Can I hear that voice again"
+m 1euc "There's blue in the fire,"
+m 5eubla "There's red in your face,"
+m 1eua "My motives are laced with gold,"
+m 1hua "I'm moving, and moving"
+m "There's colors in the skyline"
+m "That flow into space"
+m 1dua "The feeling of floating on my own"
+m 1duc "No one in this place"
+m 1rksdrc "I don't belong here"
+m 1hua "Had me going, my friend"
+m 1luc "I'm so blind, I can't stand"
+m 3rksdlc "Left alone with your hand"
+m 3euc "I think that I can see your eyes"
+m 1hua "And the past can show you"
+m "All the life we've been through"
+m 1rkc "Lost and gone and frozen, but I'm just..."
+m 1eua "I'm always running"
